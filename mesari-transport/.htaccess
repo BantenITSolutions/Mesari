@@ -1,0 +1,43 @@
+Options +FollowSymlinks
+
+RewriteEngine on
+
+RewriteRule ^/?([A-Za-z]+)/?$ salah.php?id=$1 [L]
+
+RewriteRule ^index.html index.php [nc]
+
+RewriteRule ^news-detail.html news-detail.php [nc]
+
+RewriteRule ^news.html news.php [nc]
+
+RewriteRule ^about.html about.php [nc]
+
+RewriteRule ^gallery.html gallery.php [nc]
+
+RewriteRule ^member.html member.php [nc]
+
+RewriteRule ^view-art-work.html view-art-work.php [nc]
+
+RewriteRule ^ubah-password.html ubah-password.php [nc]
+
+RewriteRule ^forum.html forum.php [nc]
+
+RewriteRule ^page-colour.html page-colour.php [nc]
+
+RewriteRule ^show-topik.html show-topik.php [nc]
+
+RewriteRule ^art-work.html art-work.php [nc]
+
+RewriteRule ^member-show.html member-show.php [nc]
+
+RewriteRule ^profil-member.html profil-member.php [nc]
+
+RewriteRule ^edit-profil.html edit-profil.php [nc]
+
+RewriteRule ^kirim-komentar.html kirim-komentar.php [nc]
+
+RewriteRule ^reply-topik.html reply-topik.php [nc]
+
+RewriteRule ^register.html register.php [nc]
+
+RewriteRule ^logoutmember.html logoutmember.php [nc]
